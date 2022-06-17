@@ -1,5 +1,6 @@
 class PortfolioModel {
-    constructor (img, category ) {
+    constructor (index, img, category ) {
+        this.index = index;
         this.img = img;
         this.category = category;
     }
